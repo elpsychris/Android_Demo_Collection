@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="day03.nguyenntt.day04_fragment.MainActivity"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="day03.nguyenntt.day04_fragment.FragmentDynamic1"
+        android:layout_width="186dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_fragment_dynamic1" />
+
+    <fragment
+        android:layout_width="201dp"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment2"
+        android:name="day03.nguyenntt.day04_fragment.DynamicFragment2"
+        tools:layout="@layout/fragment_dynamic_fragment2" />
+
+
+</LinearLayout>

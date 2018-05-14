@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Day07_List</string>
+    <string-array name="listSubject">
+        <item>PRJ311</item>
+        <item>PRJ321</item>
+        <item>PRM391</item>
+    </string-array>
+</resources>
+
